@@ -8,7 +8,7 @@ RUN apt update
 RUN apt-get install -y python3 python3-pip python-dev python3-dev \
 build-essential libssl-dev libffi-dev \
 libxml2-dev libxslt1-dev zlib1g-dev \
-python-pip  mesa-common-dev
+python-pip  mesa-common-dev libqt5x11extras5
 
 # Install silx
 RUN pip3 install pyqt5==5.14.0
