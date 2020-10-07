@@ -18,7 +18,7 @@ RUN pip3 install silx[full]
 RUN pip3 install pyfai
 
 # Install pymca
-#RUN pip3 install PyMca5
+RUN pip3 install PyMca5
 
 # Switch to normal user
 USER 1000
